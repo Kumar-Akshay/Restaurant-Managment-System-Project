@@ -1,37 +1,41 @@
-body{
-  margin-top:105px;
-
-
-}
-h3{
-  color: white;
-}
-
-.navbar{
-  box-shadow:2px 2px 5px #3377ff ;
-  opacity:0.9;
-  background:#753F34; 
-}
-  .nav-item{
-    font-size:1.6rem;
-    padding-right:20px;
-  }
-
-.nav-item li a{
-  border: 2px solid white;    
+.imgbg{
   
+  background-image:  url(../img/BG2.jpg);
+  background-attachment: fixed;
+  background-image: cover;
+  width: 100%;
+  height: 700px;
+
+
 }
-.nav-item:hover{
-    border: 2px darkorange;
-    background: darkorange;
-    transition: all 0.3s ease-out;
-  }
- 
 
 
 
-h3{
-  text-decoration: none;
-  font-size: 1.4em;
-  font-style: ""
+
+
+.ourservices{
+  padding: 100px 0px 60px;
+  height: 700px;
+}
+.ourservices h1{
+  font-size: 50px;
+  font-weight: bold;
+}
+.rowsetting{
+  margin: 80px 0px !important;
+}
+
+.imgsetting{
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+}
+.fa-home{
+  margin-top: 20px;
+}
+.fa-cc-visa{
+  margin-top: 24px;
+}
+.fa-location-arrow{
+ margin-top: 20px;
 }
