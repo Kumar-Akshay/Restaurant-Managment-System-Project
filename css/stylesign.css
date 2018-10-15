@@ -1,0 +1,88 @@
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background: url(../img/login.jpg) ;
+	background-size: cover;
+
+}
+h1{
+	text-align: left;
+	font-family: sans-serif;
+	font-weight: bold;
+	
+}
+
+.main-section{
+	margin: 0 auto;
+	margin-top: 130px;
+	padding: 0;
+}
+
+.modal-content{
+	background-color: #470000;;
+	opacity: 0.8;
+	padding: 0 18px;
+	border-radius: 2.3rem;
+}
+.user-img img{
+		height: 120px;
+		width: 120px;
+		border-radius: 60px;
+
+}
+.user-img{
+	margin-top: -60px;
+	margin-bottom: 45px;
+
+}
+
+.form-group{
+	margin-bottom: 25px;
+
+}
+.form-group input{
+	height: 42px;
+	border-radius: 5px;
+	border:0;
+	font-size: 18px;
+	letter-spacing: 2px;
+	padding-left: 54px;
+
+
+}
+.form-group::before{
+	font-family: 'FontAwesome';
+	content:"\f1fa";
+	position: absolute;
+	font-size: 22px;
+	left: 28px;
+	padding-top: 4px;
+	color: #555e60;
+}
+.form-group:last-of-type::before{
+	content: "\f023"
+}
+
+.form-input button{
+	width: 80px;
+	margin: 5px 0 25px;
+}
+.btn-success{
+	background-color: #1c6288;
+	font-size: 19px;
+	border-radius: 5px;
+	padding: 7px 14px;
+	border: 1px solid #daf1ff;	
+}
+.btn-success:hover{
+	background-color: #12335e;
+	border: 1px solid #daf1ff;
+}
+.forget{
+	padding: 5px 0 5px;
+}
+.forget a{
+	color: #03d723;
+}
