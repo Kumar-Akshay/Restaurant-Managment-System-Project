@@ -1,0 +1,131 @@
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background: url(../img/BG1.jpg) ;
+	background-size: cover;
+
+}
+
+h1{
+	color: #cbf442;
+	margin-top: 15%;
+	font-family: Times New Roman;
+	
+}
+p{
+	color:#f47741;
+	margin-left: 10%;
+}
+
+
+
+.main-section{
+	margin: 0 auto;
+	padding: 0;
+}
+
+.modal-content{
+	background-color: #171414;
+	opacity: 0.9;
+	padding: 0 18px;
+	border-radius: 2.3rem;
+	width: 130%;
+	margin-left: 10%;
+	
+
+}
+
+.form-row{
+	margin-bottom: 25px;
+}
+.form-row input{
+	height: 42px;
+	border-radius: 5px;
+	border:0;
+	font-size: 18px;
+	letter-spacing: 2px;
+	padding-left: 54px;
+}
+
+.col::before{
+	font-family: 'FontAwesome';
+	content:"\f007";
+	position: absolute;
+	font-size: 22px;
+	left: 28px;
+	padding-top: 4px;
+	color: #555e60;
+}
+.col:last-of-type::before{
+	content: "\f007"
+}
+
+.form-group{
+	margin-bottom: 25px;
+
+}
+.form-group input{
+	height: 42px;
+	border-radius: 5px;
+	border:0;
+	font-size: 18px;
+	letter-spacing: 2px;
+	padding-left: 54px;
+}
+
+.email::before{
+	font-family: 'FontAwesome';
+	content:"\f1fa";
+	position: absolute;
+	font-size: 22px;
+	left: 28px;
+	padding-top: 4px;
+	color: #555e60;
+}
+.password::before{
+	font-family: 'FontAwesome';
+	content:"\f023";
+	position: absolute;
+	font-size: 22px;
+	left: 28px;
+	padding-top: 4px;
+	color: #555e60;
+}
+.address::before{
+	font-family: 'FontAwesome';
+	content:"\f2bb";
+	position: absolute;
+	font-size: 22px;
+	left: 28px;
+	padding-top: 4px;
+	color: #555e60;
+}
+.City::before{
+	font-family: 'FontAwesome';
+	content:"\f0da";
+	position: absolute;
+	font-size: 22px;
+	left: 28px;
+	padding-top: 4px;
+	color: #555e60;
+}
+.State::before{
+	font-family: 'FontAwesome';
+	content:"\f0da";
+	position: absolute;
+	font-size: 22px;
+	left: 28px;
+	padding-top: 4px;
+	color: #555e60;
+}
+.Country::before{
+	font-family: 'FontAwesome';
+	content:"\f024";
+	position: absolute;
+	font-size: 22px;
+	left: 28px;
+	padding-top: 4px;
+	color: #555e60;
+}

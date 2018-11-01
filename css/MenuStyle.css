@@ -1,0 +1,42 @@
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background-image:  url(../img/BG2.jpg);
+	background-size: cover;
+
+
+}
+
+.container{
+	margin-top: 10%;
+}
+h1{
+	font-size: 40px;
+	text-decoration: underline;
+	color: black;
+	font-family: fantasy;
+}
+
+
+
+img{
+	transition: all 0.5s;
+}
+img:hover{
+	transform: scale(1.2);
+}
+h2{
+	font-size: 20px;
+	text-decoration: underline;
+	color: red;
+	font-weight: bold;
+	margin-top: 5%;
+}
+h3{
+	font-size: 20px;
+	margin-bottom: 10%;
+	font-weight: bold;
+	font-family: fantasy;
+}
