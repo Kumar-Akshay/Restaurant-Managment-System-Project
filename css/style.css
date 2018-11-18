@@ -1,4 +1,9 @@
-   
+ body{
+  margin: 0;
+  padding: 0;
+ }
+
+
 .imgbg{
   
   background-image:  url(../img/BG2.jpg);
@@ -8,26 +13,168 @@
   height: 700px;
 
 
+
 }
+.NewFontTitle{
+  font-family: "akronim";
+  color: black;
+  font-size: 2rem;
+
+}
+.newfont{
+  font-family: "Akronim";
+  color: black;
+  font-size: 20px;
+}
+
+
+.btn-sytle{
+  border: 2px solid black;
+  border-radius: 30px;
+  background-color: white;
+  color: black;
+  padding: 5px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.btn-primary:hover{
+  background-color: #4CAF50;
+  color: white;
+}
+
 
 .carousel img {
     height: 740px;
 }
 
+
 .textvist{
-  font-size: 70px;
- 
+  font-family: "Akronim";
+  font-size: 4vw;
   color: orange; 
   margin-bottom: 10%;
 }
 .textvist1{
   color: orange;
-  font-size: 20px;
+  font-family: "Akronim";
+  font-size: 1.5vw;
   font-weight: bold;
+  letter-spacing: 2px;
   line-height: 2px;
   margin-bottom: 10%;
   
 }
+
+.btn-style{
+  font-family: "Akronim";
+  letter-spacing: 4px;
+}
+.btn-style:hover{
+  color: yellow;
+  font-size: 1.5vw;
+
+}
+
+
+.body1{
+  background-image: url(../img/bg.jpg);
+
+  
+}
+
+.rseize{
+  border-radius: 200px;
+  margin-top: 10%;
+  margin-left: 20%;
+}
+.font{
+  font-family: "Akronim";
+}
+.h1style{
+  font-size: 2.5vw;
+}
+h1{
+  font-size: 2.5vw;
+  color:yellow;
+}
+p{
+  font-family: "akronim";
+ font-size: 1.5vw;
+  color: white; 
+}
+
+.main-section{
+  margin: 0 auto;
+  padding: 0;
+}
+.modal-content{
+  background-color: #171414;
+  opacity: 0.8;
+  padding: 0 18px;
+  width: 110%;
+  margin-left: 0%;
+  margin-bottom: 15%;
+  margin-top: 10%;
+}
+
+.form-row input{
+  height: 42px;
+  border-radius: 5px;
+  border:0;
+  font-size: 18px;
+  letter-spacing: 2px;
+  padding-left: 15px;
+}
+
+label{
+color: white;
+}
+.Email-wrapper{
+  position: relative;
+}
+.Email-wrapper:before{
+    content: "\f0e0";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    color: #459ce7;
+    font-size: 18px;
+    padding-right: 0.5em;
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+.input-wrapper {
+    position: relative;   
+}
+.input-wrapper:before {
+    content: "\f073";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    color: #459ce7;
+    font-size: 18px;
+    padding-right: 0.5em;
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+
+@media only screen and (max-width: 600px) {
+  img{
+  width: 50px;
+  height: 50px;
+  }
+}
+
+
+
+
+
+
+
 
 
 .wallpaper{

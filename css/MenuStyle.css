@@ -1,42 +1,92 @@
-
 body{
 	margin: 0;
 	padding: 0;
 	font-family: sans-serif;
-	background-image:  url(../img/BG2.jpg);
+	background-image: url(../img/Menupicture.jpg);
 	background-size: cover;
+}
 
+
+.NewFontTitle{
+  font-family: "akronim";
+  color: black;
+  font-size: 2rem;
 
 }
+.newfont{
+  font-family: "Akronim";
+  color: black;
+  font-size: 20px;
+}
+
+
+.btn-sytle{
+  border: 2px solid black;
+  border-radius: 30px;
+  background-color: white;
+  color: black;
+  padding: 5px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.btn-primary:hover{
+  background-color: #4CAF50;
+  color: white;
+}
+
 
 .container{
 	margin-top: 10%;
+	margin-left: 6%;
 }
+
+.col-md-3{
+	margin: 1.25rem 0;
+}
+@media screen and (max-width: 34em){
+	.col-md-6{
+		margin-left: 1.25rem
+	}
+}
+.text-center1{
+	text-align: center;
+	margin: 1.25rem 0;
+	border-bottom: 3px solid #dadada;
+	padding: 1.25rem 0;
+}
+.textstyle{
+	font-family: "Akronim";
+}
+
+
+
 h1{
 	font-size: 40px;
 	text-decoration: underline;
 	color: black;
 	font-family: fantasy;
 }
-
-
-
-img{
+.row img{
 	transition: all 0.5s;
 }
-img:hover{
+.row img:hover{
 	transform: scale(1.2);
 }
+
 h2{
 	font-size: 20px;
 	text-decoration: underline;
-	color: red;
+	color: white;
+	letter-spacing: 2px;
 	font-weight: bold;
 	margin-top: 5%;
+	font-family: "Akronim"
 }
 h3{
 	font-size: 20px;
 	margin-bottom: 10%;
 	font-weight: bold;
-	font-family: fantasy;
+	font-family: "Akronim";
+	letter-spacing: 2px;
+	color: white;
 }

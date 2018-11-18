@@ -1,0 +1,32 @@
+body{
+	margin:0px;
+	padding: 0; 
+}
+
+
+.NewFontTitle{
+  font-family: "akronim";
+  color: black;
+  font-size: 2rem;
+
+}
+.newfont{
+  font-family: "Akronim";
+  color: black;
+  font-size: 20px;
+}
+
+
+.btn-sytle{
+  border: 2px solid black;
+  border-radius: 30px;
+  background-color: white;
+  color: black;
+  padding: 5px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.btn-primary:hover{
+  background-color: #4CAF50;
+  color: white;
+}

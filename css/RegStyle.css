@@ -8,6 +8,29 @@ body{
 
 }
 
+.newfont{
+  font-family: "Akronim";
+  
+  font-size: 35px;
+
+}
+
+.btn-sytle{
+  border: 2px solid black;
+  border-radius: 30px;
+  background-color: white;
+  color: black;
+  padding: 5px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.btn-primary:hover{
+  background-color: #4CAF50;
+  color: white;
+}
+
+
+
 h1{
 	color: #cbf442;
 	margin-top: 15%;
@@ -15,6 +38,8 @@ h1{
 	
 }
 p{
+	letter-spacing: 2px;
+	font-family: none;	
 	color:#f47741;
 	margin-left: 10%;
 }
