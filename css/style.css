@@ -16,7 +16,7 @@
 
 }
 .NewFontTitle{
-  font-family: "akronim";
+  font-family: "Akronim";
   color: black;
   font-size: 2rem;
 
@@ -46,6 +46,11 @@
 .carousel img {
     height: 740px;
 }
+@media only screen and (max-width: 800px){
+  .carousel img {
+    height: 370px;
+  }
+}
 
 
 .textvist{
@@ -67,112 +72,12 @@
 
 .btn-style{
   font-family: "Akronim";
-  letter-spacing: 4px;
+  letter-spacing: 1px;
+  border-radius: 20px;
 }
 .btn-style:hover{
   color: yellow;
-  font-size: 1.5vw;
-
 }
-
-
-.body1{
-  background-image: url(../img/bg.jpg);
-
-  
-}
-
-.rseize{
-  border-radius: 200px;
-  margin-top: 10%;
-  margin-left: 20%;
-}
-.font{
-  font-family: "Akronim";
-}
-.h1style{
-  font-size: 2.5vw;
-}
-h1{
-  font-size: 2.5vw;
-  color:yellow;
-}
-p{
-  font-family: "akronim";
- font-size: 1.5vw;
-  color: white; 
-}
-
-.main-section{
-  margin: 0 auto;
-  padding: 0;
-}
-.modal-content{
-  background-color: #171414;
-  opacity: 0.8;
-  padding: 0 18px;
-  width: 110%;
-  margin-left: 0%;
-  margin-bottom: 15%;
-  margin-top: 10%;
-}
-
-.form-row input{
-  height: 42px;
-  border-radius: 5px;
-  border:0;
-  font-size: 18px;
-  letter-spacing: 2px;
-  padding-left: 15px;
-}
-
-label{
-color: white;
-}
-.Email-wrapper{
-  position: relative;
-}
-.Email-wrapper:before{
-    content: "\f0e0";
-    font-family: FontAwesome;
-    font-style: normal;
-    font-weight: normal;
-    text-decoration: inherit;
-    color: #459ce7;
-    font-size: 18px;
-    padding-right: 0.5em;
-    position: absolute;
-    top: 10px;
-    right: 0;
-}
-.input-wrapper {
-    position: relative;   
-}
-.input-wrapper:before {
-    content: "\f073";
-    font-family: FontAwesome;
-    font-style: normal;
-    font-weight: normal;
-    text-decoration: inherit;
-    color: #459ce7;
-    font-size: 18px;
-    padding-right: 0.5em;
-    position: absolute;
-    top: 10px;
-    right: 0;
-}
-
-@media only screen and (max-width: 600px) {
-  img{
-  width: 50px;
-  height: 50px;
-  }
-}
-
-
-
-
-
 
 
 
@@ -188,9 +93,22 @@ color: white;
 .ourservices h1{
   font-size: 50px;
   font-weight: bold;
+  color: black;
+  font-family: "Akronim";
+}
+.ourservices p{
+  color: black;
+  font-size: 1em;
+  font-weight: bold; 
 }
 .rowsetting{
   margin: 80px 0px !important;
+}
+
+.rowsetting h2{
+  color: black !important;
+  font-family: "Akronim";
+  font-weight: bold;
 }
 
 .imgsetting{

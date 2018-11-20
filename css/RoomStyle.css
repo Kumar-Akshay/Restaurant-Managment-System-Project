@@ -1,11 +1,14 @@
 body{
-	margin:0px;
-	padding: 0; 
+
+  background-image: url(../img/rooms/rooms8.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+
 }
 
-
 .NewFontTitle{
-  font-family: "akronim";
+  font-family: "Akronim";
   color: black;
   font-size: 2rem;
 
@@ -20,13 +23,267 @@ body{
 .btn-sytle{
   border: 2px solid black;
   border-radius: 30px;
-  background-color: white;
-  color: black;
+  background-color: black;
+  color: white;
   padding: 5px 20px;
-  font-size: 16px;
+  font-size: 18px;
   cursor: pointer;
+    letter-spacing:2px;
+  font-family: "Akronim"
+
 }
 .btn-primary:hover{
   background-color: #4CAF50;
   color: white;
+}
+
+.Main_section{
+ margin-top: 1em;
+ padding: 5em 0 5em;
+ position: relative;
+}
+
+.Main_section h1{
+    font-family: "Akronim";
+    text-decoration: underline;
+    text-align: center;
+    font-size: 5em;
+    color: white;
+}
+.rows{
+    background-color: black;
+}
+
+@media only screen and (max-width: 600px){
+    .Main_section h1{
+      font-size: 2.5em;
+    }
+}
+
+.room{
+  border: 4px solid black;
+
+}
+.room img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+.text{
+    padding: 20px;
+    border: 2px solid #e0e0e0;
+    border-top: none;
+
+}
+
+.text h3{
+    font-size: 26px;
+    margin-left: 0px;
+    color: white;
+    font-weight: bold;
+    font-family: cursive;
+    display: inline-block;
+    padding: 4px 4px 4px;
+    line-height: 1.5;
+    background: #000;
+} 
+
+
+
+.room p{
+  font-size: 18px;
+  margin-left: 0px;
+  color: white;
+  font-weight: bold;
+  font-family:serif;
+  display: inline-block;
+  padding: 4px 4px 4px;
+  line-height: 1.5;
+  background: #000;
+  color: #yellow;
+ }
+.post-meta{
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #b3b2b2;
+}
+
+.post-meta ul{
+  padding: 0px;
+  margin: 0px;
+
+}
+
+.post-meta,.review-rate{
+    border-radius: 8px;
+    display: inline-block;
+    zoom: 1;
+    margin-right: 20px;
+    padding: 3px 2px 0px;
+    line-height: 1;
+    background: #000;
+    color: #yellow;
+ }
+
+ .post-meta ul li{
+    display: inline-block;
+    list-style: none;
+    margin-right: 10px;
+    margin-bottom: 10px;   
+    
+}
+
+
+
+
+.body1{
+  background-image: url(../img/bg.jpg);
+
+  
+}
+
+.rseize{
+  margin-top: 10%;
+  margin-left: 12%;
+  border: 4px solid white;
+}
+.marginleft{
+ margin-top: 2%;
+ margin-left: 20%;
+ }
+.font{
+  font-family: "Akronim";
+  color: white;
+}
+.h1style{
+  font-size: 2.5vw;
+}
+.new h1{
+  font-size: 2.5em;
+  color:white;
+}
+.new p{
+  font-family: "akronim";
+ font-size: 1.2em;
+  color: white; 
+}
+
+.main-section{
+  margin: 0 auto;
+  padding: 0;
+}
+.modal-content{
+  background-color: #171414;
+  opacity: 0.8;
+  padding: 10px 20px;
+  width: 100%;
+  margin-left: 5%;
+  margin-bottom: 15%;
+  margin-top: 10%;
+}
+@media only screen and (max-width: 600px;){
+  .modal-content{
+  padding: 0px 18px;
+  width: 40%;
+  margin-left: 0%;
+  margin-bottom: 10%;
+  margin-top: 5%;
+  }
+}
+
+.form-row input{
+  height: 42px;
+  border-radius: 5px;
+  border:0;
+  font-size: 18px;
+  letter-spacing: 2px;
+  padding-left: 15px;
+}
+
+label{
+color: white;
+}
+.Email-wrapper{
+  position: relative;
+}
+.Email-wrapper:before{
+    content: "\f0e0";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    color: #459ce7;
+    font-size: 18px;
+    padding-right: 0.5em;
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+.input-wrapper {
+    position: relative;   
+}
+.input-wrapper:before {
+    content: "\f073";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    color: #459ce7;
+    font-size: 18px;
+    padding-right: 0.5em;
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .rseize img{
+  width: 130px;
+  height: 150px;
+  border-radius: 200px;
+  margin-left: 12%;
+  
+  }
+}
+
+
+
+
+
+ 
+.mb50{
+  margin-bottom:30px!important;
+}
+.svg{
+  margin-bottom:60px!important;
+}
+.settext{
+  display: inline-block;
+  border: 2px solid white;
+  margin-bottom: 2em;
+
+}
+.settext h3 ,h2{
+  text-decoration: underline;
+  font-family: "Akronim";
+  text-align: center;
+  font-size: 2em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  font-weight: bold;
+  color: red;
+  letter-spacing: 2px;
+
+}
+
+.settext p{
+  text-align: center;
+  font-size: 1em;
+  font-weight: bold;
+  color: yellow;
+  letter-spacing: 2px;
+
 }

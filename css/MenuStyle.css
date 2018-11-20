@@ -3,6 +3,7 @@ body{
 	padding: 0;
 	font-family: sans-serif;
 	background-image: url(../img/Menupicture.jpg);
+  background-attachment: fixed;
 	background-size: cover;
 }
 
@@ -35,58 +36,230 @@ body{
 }
 
 
+.Main_section h1{
+    font-family: "Akronim";
+    text-decoration: underline;
+    text-align: center;
+    font-size: 5em;
+    color: green;
+    margin-top:2em;
+       
+}
+
+@media only screen and (max-width: 600px){
+    .Main_section h1{
+      font-size: 2.5em;
+    }
+}
+
+.rows{
+  background-color: black;
+}
 .container{
-	margin-top: 10%;
+	margin-top: 2%;
 	margin-left: 6%;
+
 }
 
-.col-md-3{
-	margin: 1.25rem 0;
+.food{
+  border: 4px solid black;
+
 }
-@media screen and (max-width: 34em){
-	.col-md-6{
-		margin-left: 1.25rem
-	}
+.food img{
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
-.text-center1{
-	text-align: center;
-	margin: 1.25rem 0;
-	border-bottom: 3px solid #dadada;
-	padding: 1.25rem 0;
+
+.text{
+    padding: 10px;
+    border: 2px solid #e0e0e0;
+    border-top: none;
 }
-.textstyle{
-	font-family: "Akronim";
+
+.text h3{
+    font-size: 26px;
+    margin-left: 0px;
+    color: white;
+} 
+
+
+
+.food p{
+  font-size: 18px;
+  margin-left: 0px;
+  color: white
+ }
+.post-meta{
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #b3b2b2;
+}
+
+.post-meta ul{
+  padding: 0px;
+  margin: 0px;
+
+}
+
+.post-meta,.review-rate{
+    border-radius: 8px;
+    display: inline-block;
+    zoom: 1;
+    margin-right: 20px;
+    padding: 3px 2px 0px;
+    line-height: 1;
+    background: white;
+    color: black;
+ }
+
+ .post-meta ul li{
+    display: inline-block;
+    list-style: none;
+    margin-right: 10px;
+    margin-bottom: 10px;   
+    
+}
+
+
+.Back {
+  background-image: url(img/Room1.jpg);
+}
+
+
+.body1{
+  background-image: url(../img/bg.jpg);
+
+  
+}
+
+.rseize{
+  margin-top: 10%;
+  margin-left: 20%;
+}
+.font{
+  font-family: "Akronim";
+  text-decoration: underline;
+}
+.h1style{
+  font-size: 2.5vw;
+}
+
+.main-section{
+  margin: 0 auto;
+  padding: 0;
+}
+.modal-content{
+  background-color: #171414;
+  opacity: 0.8;
+  padding: 0 18px;
+  width: 100%;
+  margin-left: 0%;
+  margin-bottom: 15%;
+  margin-top: 10%;
+}
+
+.form-row input{
+  height: 42px;
+  border-radius: 5px;
+  border:0;
+  font-size: 18px;
+  letter-spacing: 2px;
+  padding-left: 15px;
+}
+
+label{
+color: white;
+}
+.Email-wrapper{
+  position: relative;
+}
+.Email-wrapper:before{
+    content: "\f0e0";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    color: #459ce7;
+    font-size: 18px;
+    padding-right: 0.5em;
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+.input-wrapper {
+    position: relative;   
+}
+.input-wrapper:before {
+    content: "\f073";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    color: #459ce7;
+    font-size: 18px;
+    padding-right: 0.5em;
+    position: absolute;
+    top: 10px;
+    right: 0;
 }
 
 
 
-h1{
-	font-size: 40px;
-	text-decoration: underline;
-	color: black;
-	font-family: fantasy;
+.table-responsive{
+  margin-left: 10%;
+  margin-top: 10%;
 }
-.row img{
-	transition: all 0.5s;
-}
-.row img:hover{
-	transform: scale(1.2);
+.table-responsive th{
+  font-weight: bold;
+  font-size: 20px;
 }
 
-h2{
-	font-size: 20px;
-	text-decoration: underline;
-	color: white;
-	letter-spacing: 2px;
-	font-weight: bold;
-	margin-top: 5%;
-	font-family: "Akronim"
+
+
+
+
+
+
+
+
+.main{
+  margin-top:5px;
+ margin-bottom:5px;
+ height:1px;
+ width:250%;
+ border-top:1px solid black;
 }
-h3{
-	font-size: 20px;
-	margin-bottom: 10%;
-	font-weight: bold;
-	font-family: "Akronim";
-	letter-spacing: 2px;
-	color: white;
+
+.mb50{
+  margin-bottom:30px!important;
+}
+.svg{
+  margin-bottom:60px!important;
+}
+.settext{
+  display: inline-block;
+  border: 2px solid white;
+  margin-bottom: 2em;
+
+}
+.settext h3 ,h2{
+  text-decoration: underline;
+  font-family: "Akronim";
+  text-align: center;
+  font-size: 2em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  font-weight: bold;
+  color: white;
+  letter-spacing: 2px;
+
+}
+
+.settext p{
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  font-family: serif;
 }

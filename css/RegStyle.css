@@ -5,15 +5,23 @@ body{
 	font-family: sans-serif;
 	background: url(../img/BG1.jpg) ;
 	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
 
+}
+
+.NewFontTitle{
+  font-family: "akronim";
+  color:black;
+  font-size: 2rem;
 }
 
 .newfont{
   font-family: "Akronim";
-  
-  font-size: 35px;
-
+  color: yellow;
+  font-size: 20px;
 }
+
 
 .btn-sytle{
   border: 2px solid black;
@@ -30,12 +38,15 @@ body{
 }
 
 
-
 h1{
-	color: #cbf442;
-	margin-top: 15%;
-	font-family: Times New Roman;
-	
+	font-size: 2.5vw;
+	margin-top: 10%;
+	font-family: "Akronim";
+    color: yellow;
+    margin-bottom: 15px;
+    text-decoration: underline;
+    letter-spacing: 2px;
+
 }
 p{
 	letter-spacing: 2px;
@@ -43,30 +54,51 @@ p{
 	color:#f47741;
 	margin-left: 10%;
 }
+@media only screen and (max-width: 600px)  {
+	p{
+		font-size: 2vw;
+	}
+	
+}
 
 
+.container{
+	margin-left: 2%;
+	margin-right: 2%;
+	margin-bottom: 2%;
+}
+.h1style{
+	font-size: 2.5vw; 
+	margin-left: 30%;
 
-.main-section{
-	margin: 0 auto;
-	padding: 0;
 }
 
 .modal-content{
-	background-color: #171414;
-	opacity: 0.9;
-	padding: 0 18px;
-	border-radius: 2.3rem;
-	width: 130%;
-	margin-left: 10%;
-	
 
+  background-color: black;
+  opacity: 0.95;
+  padding: 0 18px;
+  width: 100%;
+  margin-bottom: 5%;
+  margin-top: 5%;
 }
+
+@media only screen and (max-width: 600px;){
+  .modal-content{
+  padding: 0px 18px;
+  width: 40%;
+  margin-left: 0%;
+  margin-bottom: 10%;
+  margin-top: 5%;
+  }
+}
+
 
 .form-row{
 	margin-bottom: 25px;
 }
 .form-row input{
-	height: 42px;
+	height: 32px;
 	border-radius: 5px;
 	border:0;
 	font-size: 18px;
@@ -74,14 +106,26 @@ p{
 	padding-left: 54px;
 }
 
+@media  only screen and (max-width: 600px) {
+	.form-row input{
+		height: 22px;
+	border-radius: 2.5px;
+	border:0;
+	font-size: 9px;
+	letter-spacing: 2px;
+	padding-left: 28px;
+
+	}
+}
+
 .col::before{
 	font-family: 'FontAwesome';
 	content:"\f007";
 	position: absolute;
-	font-size: 22px;
+	font-size: 18px;
 	left: 28px;
 	padding-top: 4px;
-	color: #555e60;
+	color: #459ce7;
 }
 .col:last-of-type::before{
 	content: "\f007"
@@ -92,7 +136,7 @@ p{
 
 }
 .form-group input{
-	height: 42px;
+	height: 32px;
 	border-radius: 5px;
 	border:0;
 	font-size: 18px;
@@ -100,57 +144,100 @@ p{
 	padding-left: 54px;
 }
 
+@media  only screen and (max-width: 600px) {
+	.form-group input{
+		height: 22px;
+	border-radius: 2.5px;
+	border:0;
+	font-size: 9px;
+	letter-spacing: 2px;
+	padding-left: 28px;
+
+	}
+	
+}
+
+.btnstyle{
+	margin-left: 30%; 
+	border: 2px solid black;
+	
+}
+
 .email::before{
 	font-family: 'FontAwesome';
 	content:"\f1fa";
 	position: absolute;
-	font-size: 22px;
+	font-size: 18px;
 	left: 28px;
 	padding-top: 4px;
-	color: #555e60;
+	color: #459ce7;
 }
 .password::before{
 	font-family: 'FontAwesome';
 	content:"\f023";
 	position: absolute;
-	font-size: 22px;
+	font-size: 18px;
 	left: 28px;
 	padding-top: 4px;
-	color: #555e60;
+	color: #459ce7;
+}
+.dob::before{
+	
+
+	content: "\f073";
+    font-family: FontAwesome;
+    color: #459ce7;
+    font-size: 18px;
+    position: absolute;
+    padding-top: 4px;
+    margin-left: -40%;
 }
 .address::before{
 	font-family: 'FontAwesome';
 	content:"\f2bb";
 	position: absolute;
-	font-size: 22px;
+	font-size: 18px;
 	left: 28px;
 	padding-top: 4px;
-	color: #555e60;
+	color: #459ce7;
 }
-.City::before{
+.City::before {
 	font-family: 'FontAwesome';
 	content:"\f0da";
 	position: absolute;
-	font-size: 22px;
+	font-size: 18px;
 	left: 28px;
 	padding-top: 4px;
-	color: #555e60;
+	color: #459ce7;
 }
 .State::before{
 	font-family: 'FontAwesome';
 	content:"\f0da";
 	position: absolute;
-	font-size: 22px;
+	font-size: 18px;
 	left: 28px;
 	padding-top: 4px;
-	color: #555e60;
+	color: #459ce7;
 }
 .Country::before{
 	font-family: 'FontAwesome';
 	content:"\f024";
 	position: absolute;
-	font-size: 22px;
+	font-size: 18px;
 	left: 28px;
 	padding-top: 4px;
-	color: #555e60;
+	color: #459ce7;
 }
+
+.form-group .btn{
+	border: 2px solid white;
+
+}
+
+
+@media screen and (max-width: 600px) {
+	.email::before , .Country::before , .State::before, .City::before , .address::before , .password::before ,.col::before , .dob::before{
+		font-size: 10px;
+		left: 18px;
+		
+	}

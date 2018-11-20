@@ -3,16 +3,49 @@ body{
 	margin: 0;
 	padding: 0;
 	font-family: sans-serif;
-	background: url(../img/login.) ;
+	background: url(../img/login.jpg) ;
 	background-size: cover;
 
+}
+
+
+.NewFontTitle{
+  font-family: "akronim";
+  color: black;
+  font-size: 2rem;
 
 }
+.newfont{
+  font-family: "Akronim";
+  color: black;
+  font-size: 20px;
+}
+
+
+
+.btn-sytle{
+  border: 2px solid black;
+  border-radius: 30px;
+  background-color: white;
+  color: black;
+  padding: 5px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.btn-primary:hover{
+  background-color: #4CAF50;
+  color: white;
+}
+
 h1{
 	text-align: left;
-	font-family: sans-serif;
+	font-family: "Akronim";
 	font-weight: bold;
-	
+	letter-spacing: 4px;
+	text-decoration: underline;
+	color: black;
+	margin-left: 40px;
+
 }
 
 .main-section{
@@ -22,7 +55,7 @@ h1{
 }
 
 .modal-content{
-	background-color:#212529;
+	background-color:black;
 	opacity: 0.8;
 	padding: 0 18px;
 	border-radius: 2.3rem;
@@ -30,8 +63,8 @@ h1{
 
 }
 .user-img img{
-		height: 120px;
-		width: 120px;
+		height: 100px;
+		width: 100px;
 		border-radius: 60px;
 
 }
@@ -61,8 +94,8 @@ h1{
 	position: absolute;
 	font-size: 22px;
 	left: 28px;
-	padding-top: 4px;
-	color: #555e60;
+	padding-top: 10%;
+	color: right: ;
 }
 .form-group:last-of-type::before{
 	content: "\f023"
@@ -84,8 +117,12 @@ h1{
 	border: 1px solid #daf1ff;
 }
 .forget{
-	padding: 5px 0 5px;
+	padding: 5px 3px 5px;
 }
 .forget a{
 	color: #03d723;
+	font-family: monospace;
+	font-size: 18px;
+	text-decoration: underline;
+	font-weight: bold;
 }
