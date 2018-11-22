@@ -1,37 +1,33 @@
-## Welcome to GitHub Pages
+# Hotel + Resturant Managment System 
 
-You can use the [editor on GitHub](https://github.com/Kumar-Akshay/restaurantsysproject/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### This is my Database + OOAD Project !
+The Restaurant Management System helps the restaurant manager to manage the restaurant more effectively and efficiently by computerizing meal ordering, billing and inventory control.
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Features 
 
 ```markdown
-Syntax highlighted code block
+ ** Sign UP **
+ ** Registeration **
+ ** Order Food Online ** 
+ ** Add To Cart For Food Ordering **
+ ** Reserve Room Online **
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```
+## *Some Requirement in Progresss Soon we do it!*
+```bash
+# To connect with PHP and Xamp server and use Mysql database!
+# later on if we found something we must add to our project! 
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
+## *Ownership*
+[Akshay Kumar](https://www.facebook.com/LoVe.KumarAkm) 
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Kumar-Akshay/restaurantsysproject/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+  
 
-### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## License
+[Fast Nuces Karachi](http://khi.nu.edu.pk/) 
+
+
