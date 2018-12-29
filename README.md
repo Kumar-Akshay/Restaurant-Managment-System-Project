@@ -1,33 +1,37 @@
-# Hotel + Resturant Managment System 
+## Welcome to GitHub Pages
 
+You can use the [editor on GitHub](https://github.com/Kumar-Akshay/restaurantsysproject/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
-### This is my Database + OOAD Project !
-The Restaurant Management System helps the restaurant manager to manage the restaurant more effectively and efficiently by computerizing meal ordering, billing and inventory control.
+Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-## Features 
+### Markdown
+
+Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
 ```markdown
- ** Sign UP **
- ** Registeration **
- ** Order Food Online ** 
- ** Add To Cart For Food Ordering **
- ** Reserve Room Online **
+Syntax highlighted code block
 
+# Header 1
+## Header 2
+### Header 3
+
+- Bulleted
+- List
+
+1. Numbered
+2. List
+
+**Bold** and _Italic_ and `Code` text
+
+[Link](url) and ![Image](src)
 ```
-## *Some Requirement in Progresss Soon we do it!*
-```bash
-# To connect with PHP and Xamp server and use Mysql database!
-# later on if we found something we must add to our project! 
-```
 
+For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-## *Ownership*
-[Akshay Kumar](https://www.facebook.com/LoVe.KumarAkm) 
+### Jekyll Themes
 
-  
+Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Kumar-Akshay/restaurantsysproject/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
+### Support or Contact
 
-## License
-[Fast Nuces Karachi](http://khi.nu.edu.pk/) 
-
-
+Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.

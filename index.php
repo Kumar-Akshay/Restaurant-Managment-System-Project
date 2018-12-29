@@ -1,5 +1,20 @@
+
+  <?php 
+      session_start();
+
+  ?>
+
+  <?php if (isset($_GET['logout']))    {
+                          unset($_SESSION['email']);
+                          session_destroy();
+                           
+                  }?>
+
+           
+
 <!DOCTYPE html>
 <html class="no-js" lang="en">
+
     <head>
       <meta http-equiv="x-ua-compatible" content="ie=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -15,59 +30,41 @@
                <!-- font awesome libaray-->  
                <link href='https://fonts.googleapis.com/css?family=Akronim' rel='stylesheet'>
           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-      <!---css -->
+      <!---css include in php -->
           <link rel="stylesheet" href="css/style.css">
-          <link rel="stylesheet" href="css/datepicker.css">
-        <!---title -->      
+         <!---title -->      
           <title>Welcome Food Express Resturant</title>
     </head>
 
     <body >
 
 
+            
+
+         
         <nav class="navbar navbar-expand-md navbar-light bg-light  fixed-top">
-          <div class="d-flex w-100 order-0">
-        <div class="w-100">
-                <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-                </button>
-        </div>          
-        <a class="navbar-brand  ">
-        <img  src="img/Foodlogo.jpg"  width="90" height="50"  alt="" /><i class="NewFontTitle ml-2 ">Food Express Resturant</i></a>
-        <span class="w-100"></span>
-                
-            </div>
+        <div class="d-flex w-100 order-0">
+            <a class="navbar-brand  ">
+                <img class="img-thumbnail " id="img" src="img/Foodlogo.jpg"   alt="" /><i class="NewFontTitle ml-2 ">Food Express Resturant</i></a>
             <span class="w-100"></span>
-            <div class="collapse navbar-collapse w-100 order-1 order-lg-0 text-center " id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item active ">
-                        <a class="nav-link active font-weight-bold newfont" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link font-weight-bold  newfont" href="Menu.html">Menu's</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link font-weight-bold  newfont" href="Rooms.html">Rooms</a>
-                    </li>
-                    <li class="nav-item font-weight-bold  newfont">
-                        <a class="nav-link " href="#">Contact</a>
-                    </li>
-                </ul>
-                <a class="btn btn-outline-primary ml-5 btn-style " href="Menu.html#orderNow" role="button">Order Now &rarr;</a>
             </div>
+             <marquee behavior="scroll" direction="left" class="fast">Food Express Resturant Provides You Multiple Food For Order And Customer Reserve Room</marquee>
+            
+            </div> 
+            </div>           
           </nav>
 
 
 
 
 
-
-
 <div id="carouselExampleIndicators" class="carousel slide " data-ride="carousel">
-            <ol class="carousel-indicators">
+            <ol class="carousel-indicators ">
               <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
               <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
               <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+              
             </ol>
             <div class="carousel-inner role="listbox">
               <div class="carousel-item active">
@@ -75,15 +72,15 @@
                     <div class="carousel-caption  ">
                 <h2 class="textvist">Welcome to Food Express Resturant..</h2>
                 <p class="textvist1">we are welcome you here with our heartly feeling so you can enjoy our services</p>
-                <a href="Sign.html" class="btn btn-danger btn-rounded mb-4 btn-style " role="button">Login Here</a>
+                <a href="Sign.php" class="btn btn-danger btn-lg btn-rounded mb-4 btn-style " role="button">Login Here</a>
               </div>
               </div>
               <div class="carousel-item ">
-                <img class="w-100  " src="img/slider2.jpg" alt="Third slide">
+                <img class="w-100  " src="img/slider3.jpg" alt="Third slide">
                 <div class="carousel-caption ">
                 <h2 class="textvist">Welcome to Food Express Resturant..</h2>
                 <p class="textvist1">we are welcome you here with our heartly feeling so you can enjoy our services</p>
-                <a href="Rooms.html" class="btn btn-danger btn-lg btn-style" role="button">Reserve Room</a>
+                <a href="Rooms.php" class="btn btn-danger btn-lg btn-style" role="button">Reserve Room</a>
                 
                 
               </div>
@@ -93,9 +90,19 @@
                   <div class="carousel-caption  ">
                 <h2 class="textvist">Welcome to Food Express Resturant..</h2>
                 <p class="textvist1">we are welcome you here with our heartly feeling so you can enjoy our services</p>
-                <a href="Register.html" class="btn btn-danger btn-lg btn-style " role="button">Registration</a>
+                <a href="Register.php" class="btn btn-danger btn-lg btn-style " role="button">Registration</a>
               </div>
               </div>
+
+               <div class="carousel-item">
+                <img class="w-100  " src="img/slider4.jpg" alt="Third slide">
+                  <div class="carousel-caption  ">
+                <h2 class="textvist">Welcome to Food Express Resturant..</h2>
+                <p class="textvist1">we are welcome you here with our heartly feeling so you can enjoy our services</p>
+                <a href="Sign.php" class="btn btn-danger btn-lg btn-style " role="button">Order Now</a>
+              </div>
+              </div>
+
             </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -107,28 +114,6 @@
             </a>
             </div>
           
-
-
-      
-          
-      
-        
-        
-                   
-          
-      
-
-
-
-
-
-
-
-
-
-
-
-
 
           
 
@@ -160,14 +145,16 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
             tempor incididunt ut labore et dolore magna</p></div>
          
-       </section>       
-        </div>
-       
+       </div>
+       </section>
+     </div>
 
+     
 
-       
-  <script src="js/scripts.min.js"></script>
-  <script src="js/main.min.js"></script>    
+     <script src="js/scripts.min.js"></script>
+     <script src="js/main.min.js"></script> 
 
-    </body>
+    </body>       
+  
 </html>
+
